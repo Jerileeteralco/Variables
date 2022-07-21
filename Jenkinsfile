@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                script {
-                variables.mostrar (
+                Libreria_compartida.mostrar (
                Hola: 'echo "Hello"'
                Esesto: 'echo "Que es esto"' )
                }
@@ -15,7 +15,7 @@ pipeline {
 stage('Chao') {
             steps {
                 script{
-                    variables.mostrar(
+                    Libreria_compartida.otracosa (
                         Adios: 'echo "haciendo ping"'
                     )
                 }
