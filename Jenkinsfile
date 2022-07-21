@@ -6,8 +6,8 @@ pipeline {
             steps {
                script {
                 variables.mostrar (
-               Hola: 'echo' "Hello"
-               Esesto: 'echo' "Que es esto"
+               Hola: 'echo "Hello"'
+               Esesto: 'echo "Que es esto"'
 
                 )
                }
@@ -18,7 +18,7 @@ stage('Chao') {
             steps {
                 script{
                     variables.mostrar(
-                        Adios: 'echo' "haciendo ping"
+                        Adios: 'echo "haciendo ping"'
                     )
                 }
         
