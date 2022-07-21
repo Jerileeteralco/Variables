@@ -7,9 +7,7 @@ pipeline {
                script {
                 variables.mostrar (
                Hola: 'echo "Hello"'
-               Esesto: 'echo "Que es esto"'
-
-                )
+               Esesto: 'echo "Que es esto"' )
                }
             }  
         }
