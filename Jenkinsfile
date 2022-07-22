@@ -6,7 +6,7 @@ pipeline {
             steps {
                script {
                 Libreria_compartida.mostrar (
-               Hola: 'echo "Hello"'
+               Hola: 'echo "Hello"',
                Esesto: 'echo "Que es esto"' )
                }
             }  
