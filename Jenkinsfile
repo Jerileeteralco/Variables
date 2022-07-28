@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                script {
-                Libreria_compartida ()
+                saludo()
                    
                }
                 
